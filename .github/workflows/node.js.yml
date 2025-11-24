@@ -7,13 +7,11 @@ on:
   push:
     branches:
       - main        # Rama principal
-      - develop     # Rama de desarrollo (opcional, puedes eliminarla si no la usas)
 
   # Se ejecuta cuando se crea un Pull Request hacia estas ramas
   pull_request:
     branches:
       - main
-      - develop
 
 # Define las variables de entorno globales para todos los jobs
 env:
